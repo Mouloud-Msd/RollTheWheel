@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 2rem 5rem;
+  max-height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+.btnSpin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: block;
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  font-weight: bold;
+
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.animate {
+  animation: startRot 1s linear infinite;
+}
+.StopAnimate {
+  animation-play-state: paused;
+}
+@keyframes startRot {
+  100% {
+    transform: rotate(360deg);
+  }
+}
