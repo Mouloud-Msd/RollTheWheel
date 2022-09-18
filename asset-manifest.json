@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RollTheWheel/static/css/main.16d31859.css",
+    "main.js": "/RollTheWheel/static/js/main.f3fcf7f4.js",
+    "static/media/bg.jpg": "/RollTheWheel/static/media/bg.b989791893cf1ebd174a.jpg",
+    "static/media/down-arrow.svg": "/RollTheWheel/static/media/down-arrow.78e05b53a6f1761b39dc181dad6fddbf.svg",
+    "static/media/delete.svg": "/RollTheWheel/static/media/delete.a0591a960e102ba3fd0d2d717d516275.svg",
+    "index.html": "/RollTheWheel/index.html",
+    "main.16d31859.css.map": "/RollTheWheel/static/css/main.16d31859.css.map",
+    "main.f3fcf7f4.js.map": "/RollTheWheel/static/js/main.f3fcf7f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16d31859.css",
+    "static/js/main.f3fcf7f4.js"
+  ]
+}
